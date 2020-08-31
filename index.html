@@ -10,28 +10,29 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     Hello World! we are software devepopers!
     <script  src="js/index.js"></script>
-    <main id=main-doc>
 
-    <section id=title class=main-section>
-     <header><h1>Survey for Developers</h1>
+    <h1 id=title>Survey for Developers</h1>
     </header> 
     </section>
 
-    <div id=description>
-      <p>
+      <p id=description>
         This is a survey for developers to find out which career paths to choose.
       </p>
-    </div>
-    <form id= "survey form">
-      <label for = "name">name</label>
-      <input id = "name" type="text" placeholder="Nicol"required></input>
-      <label for = "email">email</label>
-      <input id = "email" type="text" placeholder="Enter your email"></input>
 
+  <form id= "survey-form">
+
+      <label for = "name">Name</label>
+      <input id = "name" type="text" name="name" placeholder="Jack"required></input>
+    <br>
+
+      <label for = "email">Email</label>
+      <input id = "email" type="email" name="email" placeholder="user@host.com"required></input>
+    <br>
+
+      <label for = "number">Age</label>
+      <input id="number" type="number" placeholder="18" min="18" max="100"required><input>
+    <br>
       
-    </form>
-
-    </main>
-
-  </body>
+  </form>
+</body>
 </html>
