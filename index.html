@@ -20,39 +20,58 @@
       </p>
 
   <form id= "survey-form">
-
+    <br>
       <label for = "name">Name</label>
       <input id = "name" type="text" name="name" placeholder="Jack"required></input>
     <br>
 
+    <br>
       <label for = "email">Email</label>
       <input id = "email" type="email" name="email" placeholder="user@host.com"required></input>
     <br>
 
+    <br>
       <label for = "number">Age</label>
       <input id="number" type="number" placeholder="18" min="18" max="100"required><input>
     <br>
 
-     <label for = "dropdown" id = "model">select model</label>
+    <br>
+     <label for = "dropdown" id = "type">Select Experience</label>
 
      <select id = "dropdown">
-      <option value = "model A">model A</option>
-      <option value = "model B">model B</option>
+      <option value = "type A"> Less than 1 Year</option>
+      <option value = "type B">2 Years and more</option>
      </select>
      <br>
 
-
+     <br>
      <label for = "Javascript" id = "Javascript">Javascript</label>
      <input id = "Javascript" type= "radio" name= "Javascript" value=1></input>
      <label for = "Python" id = "Python">Python</label>
      <input id= "Python" type = "radio" name = "Javascript" value=2></input>
+     <br>
+
+     <br>
+     <label for="Developer" id="Developer">Developer</label>
+     <input id="Developer" type="checkbox" name="Developer" value=1></input>
+
+     <label for="Front_Dev" id="Front_dev">Front End</label>
+     <input id="Front_Dev" type="checkbox" name="Developer" value=2></input>
+
+     <label for="Back_Dev" id="Back_Dev">Back End</label>
+     <input id="Back_Dev" type="checkbox" name="Developer" value=1></input>
+
+     <label for="Engineer" id="Engineer">Engineering</label>
+     <input id="Engineer" type="checkbox" name="Developer" value=2></input>
+     <br>
+
+    <br>
+    <label id="textarea">Additional Comments</label>
+    <br>
+    <textarea id="textarea" name="instructions" rows="10" cols="50"></textarea>
+
+
      
-    
-     
-
-
-
-      
-  </form>
+</form>
 </body>
 </html>
